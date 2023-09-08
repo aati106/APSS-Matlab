@@ -16,7 +16,7 @@ count = 1;
 
 for i = 1:181
   view_factor = (altitude + earth_radius)/earth_radius;
-   angle = angle + 1 
+   angle = angle + 1;
 
 heat_IR_temperature = stefan_boltzmann_constant * emissivity * view_factor * area_surface * 255^4;
 heat_ir_flux = emissivity * area_surface * view_factor * solar_constant;
