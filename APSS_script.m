@@ -2,7 +2,7 @@ clear
 
 stefan_boltzmann_constant = 5.67 * 10^(-8);
 albedo_factor = 0.35;
-solar_constant = 1354;
+solar_constant = 1440;
 absorptivity = 1; % assuming a black body - taken from online resource
 emissivity = 0.9;
 area_surface = 0.01;
